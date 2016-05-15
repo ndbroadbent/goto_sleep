@@ -2,6 +2,8 @@
 
 ### Because sometimes you look out the window and it's already 6am.
 
+![Notification Example](notification_example.png)
+
 ## Installation
 
 ```
