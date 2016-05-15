@@ -17,8 +17,7 @@ cd goto_sleep
 Notification cron tasks will be set up for the current user,
 and a shutdown cron task will be set up for the root user.
 
-The default shutdown time is 3am.
-The default warning notifications are at 45 minutes, 25 minutes, and 5 minutes before shutdown.
+The default shutdown time is 2am. The default warning notifications are at 45 minutes, 20 minutes, and 5 minutes before shutdown.
 
 You can configure these in `config.yml`.
 
