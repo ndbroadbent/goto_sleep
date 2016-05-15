@@ -1,5 +1,4 @@
 # Adjust shutdown time and alert times in config.yml
-
 require 'yaml'
 config = YAML.load_file('config.yml')
 
