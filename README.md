@@ -9,11 +9,15 @@
 ```
 git clone https://github.com/ndbroadbent/goto_sleep.git
 cd goto_sleep
-sudo ./install.sh
+./install.sh
 ```
 
-*(Don't clone this into `/tmp`, otherwise the notification icons will stop working after a restart.)*
+### Details
 
-The default shutdown time is 3am. You can configure this in `config/schedule.rb`.
+Notification cron tasks will be set up for the current user,
+and a shutdown cron task will be set up for the root user.
 
-You will also see warning notifications at 45 minutes, 25 minutes, and 5 minutes before shutdown.
+The default shutdown time is 3am.
+The default warning notifications are at 45 minutes, 25 minutes, and 5 minutes before shutdown.
+
+You can configure these in `config.yml`.

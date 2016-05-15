@@ -1,0 +1,2 @@
+shutdown_time: 3am
+alert_times: [5, 25, 45]
