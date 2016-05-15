@@ -10,6 +10,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chronic
   terminal-notifier
   whenever
