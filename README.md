@@ -4,7 +4,7 @@
 
 ![Notification Example](notification_example.png)
 
-## Installation
+## Install
 
 ```
 git clone https://github.com/ndbroadbent/goto_sleep.git
@@ -21,3 +21,11 @@ The default shutdown time is 3am.
 The default warning notifications are at 45 minutes, 25 minutes, and 5 minutes before shutdown.
 
 You can configure these in `config.yml`.
+
+## Uninstall
+
+```
+./uninstall.sh
+cd ..
+rm -rf goto_sleep
+```
