@@ -14,5 +14,4 @@ end
 
 every :day, :at => config['shutdown_time'] do
   notification "Shutting down!", message: 'Good night!'
-  command 'sleep 5; /sbin/shutdown -h now'
 end
