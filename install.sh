@@ -16,7 +16,7 @@ type gem > /dev/null 2>&1 || {
 # Install bundler
 type bundle > /dev/null 2>&1 || {
   echo "Installing bundler..."
-  gem install bundler
+  gem install bundler --no-rdoc --no-ri
 }
 
 # Install gem dependencies
