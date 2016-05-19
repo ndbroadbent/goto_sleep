@@ -34,6 +34,6 @@ echo -e "\nShowing crontab for root user:"
 echo      "---------------------------------"
 whenever -f shutdown_schedule.rb
 echo -e "\n=== Installing crontab for root user:"
-sudo whenever -f shutdown_schedule.rb -w
+sudo -E whenever -f shutdown_schedule.rb -w
 
 echo -e "\nYou're all set! Edit config/schedule.rb if you want to change the SHUTDOWN_TIME."
