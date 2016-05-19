@@ -1,2 +1,2 @@
-shutdown_time: 2am
+shutdown_time: 2:30am
 alert_times: [45, 20, 5]
