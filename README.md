@@ -4,9 +4,9 @@
 
 ![Notification Example](notification_example.png)
 
-## Supported Operating Systems
+## Requirements
 
-This script currently works on Mac and Linux.
+This script requires Ruby, and it works on Mac and Linux.
 
 ## Install
 

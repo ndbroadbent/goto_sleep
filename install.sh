@@ -1,5 +1,17 @@
 #!/bin/bash
 
+type gem > /dev/null 2>&1 || {
+  echo "It looks like you don't have Ruby installed!"
+  echo "Run the following commands to install RVM and Ruby, then re-run \`./install.sh':"
+  echo
+  echo "  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3"
+  echo "  \curl -sSL https://get.rvm.io | bash -s stable --ruby"
+  echo
+  echo "Read more about RVM at: https://rvm.io/rvm/install"
+  echo
+  exit 1
+}
+
 # Install bundler
 type bundle > /dev/null 2>&1 || {
   echo "Installing bundler..."
