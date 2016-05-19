@@ -4,6 +4,10 @@
 
 ![Notification Example](notification_example.png)
 
+## Supported Operating Systems
+
+This script currently works on Mac and Linux.
+
 ## Install
 
 ```
