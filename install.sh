@@ -21,7 +21,7 @@ type bundle > /dev/null 2>&1 || {
 
 # Install gem dependencies
 echo "Checking gem dependencies..."
-bundle install --quiet
+bundle check > /dev/null 2>&1 || bundle install
 
 # Show and write crontab
 echo "Showing crontab for user '$USER':"
